@@ -1,0 +1,12 @@
+CONTACTLESS VITALS POC
+PHASE 5 ROBUST HEART RATE
+============================================================
+
+Sampling rate: 59.86 Hz
+Window size: 10s
+Window step: 2s
+
+Estimated HR: 69.7 BPM
+Window SD: 13.8 BPM
+Valid windows: 100.0%
+Signal quality: LOW

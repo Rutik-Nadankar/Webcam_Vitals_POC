@@ -1,0 +1,15 @@
+CONTACTLESS VITALS POC
+PHASE 4 rPPG ANALYSIS
+============================================================
+
+Sampling rate: 59.86 Hz
+Valid frames: 2574
+Analysis frames: 2274
+
+Combined Face: 71.9 BPM (peak ratio 16.69)
+Forehead: 50.9 BPM (peak ratio 6.45)
+Left Cheek: 71.9 BPM (peak ratio 8.32)
+Right Cheek: 64.9 BPM (peak ratio 7.44)
+
+Strongest region: Combined Face
+Candidate BPM: 71.9

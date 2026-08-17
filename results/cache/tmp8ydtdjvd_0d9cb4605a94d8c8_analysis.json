@@ -1,0 +1,99 @@
+{
+  "video_supported": true,
+  "video_processing_status": "SUCCESS",
+  "heart_rate": null,
+  "heart_rate_quality": "LOW",
+  "respiratory_rate": 7.9,
+  "respiratory_quality": "GOOD",
+  "rmssd": null,
+  "sdnn": null,
+  "hrv_quality": "LOW",
+  "accepted_beats": 0,
+  "face_detection_percent": 100.0,
+  "measurement_duration": 95.7,
+  "signal_quality_score": 60,
+  "signal_quality_label": "LOW",
+  "warnings": [
+    "Insufficient rPPG signal for a reliable heart-rate result."
+  ],
+  "timing": {
+    "preparing_video_seconds": 0.18,
+    "video_extraction_seconds": 23.78,
+    "video_backend": "FFMPEG",
+    "hardware_decode_requested": true,
+    "hardware_decode_available": true,
+    "hardware_decode_used": false,
+    "source_width": 478,
+    "source_height": 850,
+    "source_fps": 59.96,
+    "source_orientation": "portrait",
+    "source_aspect_ratio": 0.562,
+    "analysis_width": 800,
+    "analysis_height": 1423,
+    "median_face_width": 415.0,
+    "median_face_height": 415.0,
+    "median_face_area_percent": 15.13,
+    "source_duration_seconds": 95.74,
+    "analysed_duration_seconds": 60.0,
+    "effective_sampling_rate": 29.98,
+    "video_decode_seconds": 11.04,
+    "resize_seconds": 1.44,
+    "face_detection_seconds": 6.39,
+    "rgb_extraction_seconds": 2.73,
+    "motion_extraction_seconds": 2.08,
+    "analysed_frames": 1799,
+    "face_detection_calls": 180,
+    "heart_rate_seconds": 0.13,
+    "hrv_seconds": 0.0,
+    "respiratory_seconds": 2.44,
+    "total_seconds": 26.58
+  },
+  "source_width": 478,
+  "source_height": 850,
+  "source_duration_seconds": 95.74,
+  "analysed_duration_seconds": 60.0,
+  "heart_rate_candidate": 60.13,
+  "hr_diagnostics": {
+    "effective_sampling_rate": 29.98,
+    "hr_total_windows": 45,
+    "hr_fused_candidate_windows": 45,
+    "hr_accepted_windows": 11,
+    "hr_accepted_percent": 24.4,
+    "hr_candidate_median": 60.13,
+    "final_hr_median": 60.13,
+    "final_hr_sd": 4.42,
+    "two_region_consensus_windows": 11,
+    "three_region_consensus_windows": 0,
+    "no_consensus_windows": 34,
+    "median_roi_difference_bpm": 5.01,
+    "median_agreeing_regions": 2.0,
+    "fused_median_peak_quality": 3.23,
+    "regions": {
+      "forehead": {
+        "candidate_windows": 42,
+        "median_hr": 60.13,
+        "median_spectral_quality": 4.82,
+        "reliability_score": 90.1
+      },
+      "left_cheek": {
+        "candidate_windows": 38,
+        "median_hr": 75.16,
+        "median_spectral_quality": 3.96,
+        "reliability_score": 66.8
+      },
+      "right_cheek": {
+        "candidate_windows": 43,
+        "median_hr": 70.15,
+        "median_spectral_quality": 4.28,
+        "reliability_score": 81.9
+      }
+    },
+    "decision": "REJECTED",
+    "decision_reasons": [
+      "insufficient temporal coverage"
+    ],
+    "mean_skin_pixels_forehead": 11813.5,
+    "mean_skin_pixels_left_cheek": 10781.0,
+    "mean_skin_pixels_right_cheek": 10716.8
+  }
+}

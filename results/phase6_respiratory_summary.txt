@@ -1,0 +1,12 @@
+CONTACTLESS VITALS POC
+PHASE 6 RESPIRATORY RATE
+============================================================
+
+Sampling rate: 59.86 Hz
+
+Pulse amplitude RR: 25.6 breaths/min
+Pulse amplitude quality: 3.43
+
+Brightness RR: 7.9 breaths/min
+Brightness quality: 4.01
+Signal quality: LOW

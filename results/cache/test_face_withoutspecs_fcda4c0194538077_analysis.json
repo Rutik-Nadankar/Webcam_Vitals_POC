@@ -1,0 +1,37 @@
+{
+  "heart_rate": 107.7,
+  "heart_rate_quality": "LOW",
+  "respiratory_rate": 7.8,
+  "respiratory_quality": "GOOD",
+  "rmssd": null,
+  "sdnn": null,
+  "hrv_quality": "LOW",
+  "accepted_beats": 0,
+  "face_detection_percent": 100.0,
+  "measurement_duration": 95.7,
+  "signal_quality_score": 56,
+  "signal_quality_label": "LOW",
+  "warnings": [],
+  "timing": {
+    "preparing_video_seconds": 0.23,
+    "video_extraction_seconds": 334.32,
+    "heart_rate_seconds": 0.07,
+    "hrv_seconds": 0.0,
+    "respiratory_seconds": 1.6,
+    "total_seconds": 336.27
+  },
+  "hr_diagnostics": {
+    "effective_sampling_rate": 29.98,
+    "hr_total_windows": 82,
+    "hr_accepted_windows": 8,
+    "hr_rejected_low_quality": 69,
+    "hr_rejected_jump": 5,
+    "hr_candidate_median": 107.73,
+    "hr_window_sd": 4.65,
+    "hr_median_peak_quality": 3.76,
+    "hr_min_peak_quality": 2.13,
+    "combined_r_std": 1.9428,
+    "combined_g_std": 2.0588,
+    "combined_b_std": 2.0196
+  }
+}

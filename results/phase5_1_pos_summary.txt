@@ -1,0 +1,9 @@
+CONTACTLESS VITALS POC
+PHASE 5.1 POS rPPG
+============================================================
+
+Estimated HR: 72.5 BPM
+Window SD: 2.5 BPM
+Accepted windows: 22/26
+Accepted percentage: 84.6%
+Signal quality: GOOD

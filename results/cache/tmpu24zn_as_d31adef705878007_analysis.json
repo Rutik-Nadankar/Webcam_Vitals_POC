@@ -1,0 +1,89 @@
+{
+  "video_supported": true,
+  "video_processing_status": "SUCCESS",
+  "heart_rate": 60.1,
+  "heart_rate_quality": "MODERATE",
+  "respiratory_rate": null,
+  "respiratory_quality": "LOW",
+  "rmssd": null,
+  "sdnn": null,
+  "hrv_quality": "LOW",
+  "accepted_beats": 0,
+  "face_detection_percent": 100.0,
+  "measurement_duration": 45.6,
+  "signal_quality_score": 68,
+  "signal_quality_label": "MODERATE",
+  "warnings": [
+    "Insufficient shoulder-motion signal for a reliable respiratory-rate result."
+  ],
+  "timing": {
+    "preparing_video_seconds": 0.17,
+    "video_extraction_seconds": 8.82,
+    "video_backend": "FFMPEG",
+    "hardware_decode_requested": true,
+    "hardware_decode_available": true,
+    "hardware_decode_used": false,
+    "source_width": 368,
+    "source_height": 368,
+    "source_fps": 29.97,
+    "source_orientation": "landscape",
+    "source_aspect_ratio": 1.0,
+    "analysis_width": 800,
+    "analysis_height": 800,
+    "median_face_width": 428.0,
+    "median_face_height": 428.0,
+    "median_face_area_percent": 28.62,
+    "source_duration_seconds": 45.65,
+    "analysed_duration_seconds": 45.65,
+    "effective_sampling_rate": 29.97,
+    "video_decode_seconds": 2.38,
+    "resize_seconds": 0.55,
+    "face_detection_seconds": 2.56,
+    "rgb_extraction_seconds": 2.14,
+    "motion_extraction_seconds": 1.11,
+    "analysed_frames": 1368,
+    "face_detection_calls": 137,
+    "heart_rate_seconds": 0.08,
+    "hrv_seconds": 0.0,
+    "respiratory_seconds": 0.71,
+    "total_seconds": 9.81
+  },
+  "source_width": 368,
+  "source_height": 368,
+  "source_duration_seconds": 45.65,
+  "analysed_duration_seconds": 45.65,
+  "heart_rate_candidate": 60.1,
+  "hr_diagnostics": {
+    "effective_sampling_rate": 29.97,
+    "hr_total_windows": 30,
+    "hr_consensus_windows": 15,
+    "hr_accepted_windows": 15,
+    "hr_accepted_percent": 50.0,
+    "hr_candidate_median": 60.1,
+    "final_hr_median": 60.1,
+    "final_hr_sd": 5.13,
+    "median_roi_agreement": 0.0,
+    "median_spectral_quality": 4.07,
+    "regions": {
+      "forehead": {
+        "candidate_windows": 26,
+        "median_hr": 65.11,
+        "median_spectral_quality": 5.04
+      },
+      "left_cheek": {
+        "candidate_windows": 25,
+        "median_hr": 60.1,
+        "median_spectral_quality": 3.59
+      },
+      "right_cheek": {
+        "candidate_windows": 28,
+        "median_hr": 60.1,
+        "median_spectral_quality": 4.1
+      }
+    },
+    "decision": "ACCEPTED",
+    "mean_skin_pixels_forehead": 13204.4,
+    "mean_skin_pixels_left_cheek": 11470.8,
+    "mean_skin_pixels_right_cheek": 11475.8
+  }
+}

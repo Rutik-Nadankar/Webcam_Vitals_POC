@@ -1,0 +1,25 @@
+{
+  "heart_rate": null,
+  "heart_rate_quality": "LOW",
+  "respiratory_rate": 7.8,
+  "respiratory_quality": "GOOD",
+  "rmssd": null,
+  "sdnn": null,
+  "hrv_quality": "LOW",
+  "accepted_beats": 0,
+  "face_detection_percent": 100.0,
+  "measurement_duration": 95.7,
+  "signal_quality_score": 70,
+  "signal_quality_label": "MODERATE",
+  "warnings": [
+    "Insufficient rPPG signal for a reliable heart-rate result."
+  ],
+  "timing": {
+    "preparing_video_seconds": 326.72,
+    "video_extraction_seconds": 12.79,
+    "heart_rate_seconds": 0.08,
+    "hrv_seconds": 0.0,
+    "respiratory_seconds": 1.65,
+    "total_seconds": 341.29
+  }
+}

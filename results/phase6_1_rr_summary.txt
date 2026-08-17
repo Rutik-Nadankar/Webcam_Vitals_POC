@@ -1,0 +1,17 @@
+CONTACTLESS VITALS POC
+PHASE 6.1 SHOULDER MOTION RESPIRATORY RATE
+============================================================
+
+Sampling rate: 59.86 Hz
+Motion samples: 2573
+Average tracked points: 250.0
+
+PSD RR: 7.0 breaths/min
+Spectral quality: 7.83
+
+Autocorrelation RR: 6.5 breaths/min
+Autocorrelation quality: 0.32
+
+Estimated RR: 6.7 breaths/min
+
+Signal quality: GOOD
